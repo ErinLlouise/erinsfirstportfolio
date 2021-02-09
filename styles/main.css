@@ -38,6 +38,16 @@ p {
 
 }
 
+.name
+{
+  color: black;
+  text-align: center;
+  font-family: 'Work Sans';
+  font-size: 4vw;
+  font-style: oblique;
+  position: relative;
+}
+
 ul {
   text-align: left;
   color: black;
