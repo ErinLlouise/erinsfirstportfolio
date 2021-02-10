@@ -34,7 +34,7 @@ p {
     font-family: 'Work Sans', sans-serif;
     font-size: 1.2vw;
     position: relative;
-    margin-right: 2%;
+    margin-right: 3%;
 
 }
 
@@ -46,6 +46,13 @@ p {
   font-size: 4vw;
   font-style: oblique;
   position: relative;
+  margin-left: 3%;
+}
+.sidetext
+{
+  text-align: right;
+  position: relative;
+  margin-right: 3%;
 }
 
 ul {
