@@ -59,6 +59,7 @@ figure img {
 }
 figure figcaption {
     text-align: left;
+    margin-left: 3%;
 
 }
 p {
@@ -77,6 +78,7 @@ p {
     font-size: 1.2vw;
     position: relative;
     margin-right: 3%;
+    margin-left: 75%;
 }
 
 .name
@@ -150,3 +152,5 @@ ul {
     clear: both;
     display: table;
   }
+
+ 
