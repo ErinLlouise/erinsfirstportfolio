@@ -153,4 +153,11 @@ ul {
     display: table;
   }
 
+  #welcome {
+    position: relative;
+    top: 300px;
+    left: 550px;
+    text-align: center;
+  }
+
  
