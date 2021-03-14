@@ -54,14 +54,16 @@ figure {
     margin-left: 3%;  
     display: inline-block;
 }
+
 figure img {
     vertical-align: top;
 }
+
 figure figcaption {
     text-align: left;
     margin-left: 3%;
-
 }
+
 p {
     color: black;
     font-family: 'Work Sans', sans-serif;
@@ -98,13 +100,6 @@ p {
   margin-right: 3%;
 }
 
-ul {
-  text-align: left;
-  color: black;
-  font-family: 'Work sans', sans-serif;
-  font-size: 1.2vw;
-}
-/* Add a black background color to the top navigation */
 .topnav {
     background-color: bisque;
     overflow: hidden;
@@ -112,7 +107,6 @@ ul {
     padding-top: 2%;
   }
   
-  /* Style the links inside the navigation bar */
   .topnav a {
     float: right;
     color: black;
@@ -125,7 +119,6 @@ ul {
     margin-bottom: 0.1%;
   }
   
-  /* Change the color of links on hover */
   .topnav a:hover {
     background-color: rgb(223, 193, 157);
     color: black;
@@ -133,7 +126,6 @@ ul {
     padding-right: 2%;
   }
   
-  /* Add a color to the active/current link */
   .topnav a.active {
     color: black;
     padding-top: 2%;
@@ -146,7 +138,6 @@ ul {
     padding: 3%;
   }
   
-  /* Clear floats after image containers */
   .row::after {
     content: "";
     clear: both;
@@ -154,10 +145,20 @@ ul {
   }
 
   #welcome {
-    position: relative;
-    top: 300px;
-    left: 550px;
-    text-align: center;
+    position: fixed;
+    top: 40%;
+    left: 37%;
+    
   }
+
+  .thumbnail:hover {
+    position: fixed;
+    top: -10%;
+    left: -10%;
+    width: 10%;
+    height:auto;
+    display:block;
+    z-index:999;
+}
 
  
